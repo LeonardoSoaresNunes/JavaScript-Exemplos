@@ -151,7 +151,17 @@ function mudaCor(cor){
 //}
 
 
+function valida() {
+    var nome = document.getElementById('nome');
+    //alert(nome.value);
+    if (nome.value == "") {
+        alert("Campo nome não pode estar em branco");
+    }
+    else {
+        alert("Nenhum problema foi detectado.Seu formulario pode ser enviado");
 
+    }
+}
 
 
 
